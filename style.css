@@ -1,0 +1,91 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 5px;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.news-item {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  margin: 10px;
+  width: 290px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.news-item:hover {
+  transform: translateY(-5px);
+  background-color: #f0f0f0;
+  transition: transform 0.4s ease, background-color 0.4s ease;
+}
+
+.news-item img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.news-content {
+  padding: 15px;
+}
+
+.news-content h2 {
+  font-size: 18px;
+  margin: 0 0 10px;
+}
+
+.news-content p {
+  font-size: 14px;
+  color: #555;
+}
+
+.news-content a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.news-content a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .news-item {
+    width: 100%;
+  }
+}
+
+/* Estilos adicionais para barra de pesquisa */
+.search-bar {
+  margin: 0 px 0;
+  text-align: left;
+}
+
+.search-bar input {
+  padding: 5px;
+  width: 200px;
+  font-size: 16px;
+}
+
+.search-bar button {
+  padding: 5px 10px;
+  font-size: 14px;
+}
+
+.hidden {
+  display: none;
+}

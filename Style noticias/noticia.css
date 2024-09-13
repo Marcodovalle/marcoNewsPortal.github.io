@@ -1,0 +1,94 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 18px; /* Aumenta o tamanho da fonte */
+  line-height: 1.8; /* Aumenta o espaçamento entre linhas */
+  background-color: #f9f9f9; /* Fundo claro para menos contraste */
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilo do cabeçalho */
+header {
+  background-color: #333; 
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Contêiner da notícia */
+.news-page-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 40px; /* Aumenta o padding para melhorar o espaçamento */
+  background-color: #fff;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Sombra mais suave */
+  border-radius: 10px; /* Bordas mais arredondadas */
+}
+
+/* Estilo do título da notícia */
+.news-page-title {
+  font-size: 30px; /* Aumenta o tamanho do título */
+  color: #333; 
+  text-align: center; /* Centraliza o título */
+  margin-bottom: 25px; /* Maior espaçamento abaixo do título */
+}
+
+/* Estilo do conteúdo da notícia */
+.news-page-content p {
+  margin-bottom: 18px; /* Aumenta o espaçamento entre parágrafos */
+}
+
+h3 {
+  font-size: 22px;
+  color: #333; 
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+/* Estilo para imagens dentro da notícia */
+.news-page-img {
+  max-width: 60%; /* Reduz o tamanho da imagem */
+  height: auto; /* Garante que a proporção da imagem seja mantida */
+  margin: 20px auto; /* Centraliza a imagem e adiciona espaçamento */
+  display: block;
+  border-radius: 8px;
+}
+
+/* Estilo do link de voltar */
+.back-link {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff; 
+  color: #fff; /* Texto branco */
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.back-link:hover {
+  background-color: #0056b3; /* Cor mais escura ao passar o mouse */
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .news-page-container {
+    padding: 15px;
+  }
+  .news-page-title {
+    font-size: 24px;
+  }
+  .news-page-img {
+    max-width: 100%; /* Imagens ocupam 100% da largura no mobile */
+  }
+}
+
+/* Estilo do rodapé */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 40px;
+}
