@@ -15,6 +15,6 @@ O **Portal de Notícias** apresenta uma seleção de artigos sobre tendências t
 
 ## Estrutura do Projeto
 
-- **HTML5**: Estrutura da página web e exibição dos artigos de notícias.
-- **CSS3**: Estilos personalizados para o layout e responsividade do portal, incluindo animações ao passar o mouse sobre os artigos.
+- **HTML**: Estrutura da página web e exibição dos artigos de notícias.
+- **CSS**: Estilos personalizados para o layout e responsividade do portal, incluindo animações ao passar o mouse sobre os artigos.
 - **JavaScript (script.js)**: Adicionado para funcionalidades extras de interação.
