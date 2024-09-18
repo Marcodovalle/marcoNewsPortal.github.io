@@ -1,11 +1,11 @@
-# Portal de Notícias sobre Tecnologia
+# Portal de Notícias 
 ## Acesse: https://marcodovalle.github.io/marcoNewsPortal.github.io/
 
-Este é um projeto de um portal de notícias focado em temas relacionados a tecnologia, inteligência artificial, economia digital, inovação, e muito mais. O portal foi projetado para ser responsivo e oferecer uma experiência agradável ao usuário, com um layout moderno e limpo.
+Este é um projeto de um portal de notícias focado em temas relacionados a tecnologia.  O portal foi projetado para ser responsivo e oferecer uma experiência agradável ao usuário, com um layout moderno e limpo.
 
 ## Visão Geral
 
-O **Portal de Notícias** apresenta uma seleção de artigos sobre tendências tecnológicas e inovações que impactam o Brasil e o mundo. O objetivo é fornecer informações de alta qualidade sobre IA, conectividade, transformação digital e outros tópicos relevantes. O design foi feito para ser responsivo e dinâmico, oferecendo uma navegação intuitiva.
+O **Portal de Notícias** apresenta uma seleção de artigos sobre tendências tecnológicas e inovações que impactam o Brasil e o mundo. O objetivo é fornecer informações sobre IA, conectividade, transformação digital e outros tópicos relevantes. O design foi feito para ser responsivo e dinâmico, oferecendo uma navegação intuitiva.
 
 ### Funcionalidades Principais
 
